@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">location</string>
+
+    <string name="info">品牌：%1$s&#x0020;时间：%2$s&#x0020;GPS（经度：%3$s,&#x0020;纬度：%4$s）&#x0020;百度（经度：%5$s,&#x0020;纬度：%6$s）&#x000A;</string>
+</resources>
