@@ -31,18 +31,18 @@ public abstract class BaseSubscriber<T extends BaseRes> extends Subscriber<T> {
 
     @Override
     public void onCompleted() {
-        /** hide Loading */
+
     }
 
     @CallSuper
     @Override
     public void onError(Throwable e) {
+        /** 根据异常处理错误信息 */
         ToastUtil.showShort(getContext(), NetworkUtils.getMsgByError(e));
     }
 
     @Override
     public void onNext(T t) {
-
         if (t.showapi_res_code == Const.CODE_SUCCESS) {
             _onNext(t);
         } else {

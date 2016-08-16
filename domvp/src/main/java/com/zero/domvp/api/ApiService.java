@@ -15,7 +15,7 @@ import rx.Observable;
 public interface ApiService {
 
     /**
-     * 获取版本号
+     * 获取笑话列表
      *
      * @return
      */
